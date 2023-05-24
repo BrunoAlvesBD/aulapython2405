@@ -36,6 +36,16 @@ def indices(lista: list, target: int) -> list:
 # print(indices([1, 2, 3], 4))
 # -----------------------------------------
 # exemplo TP 3.12
+
+"""este método é utilizado para um jogo matemático onde um dígito numérico, uma letra e outro dígito numérico são a entrada. Se a letra for maiúscula, deve-se subtrair o primeiro dígito do segundo. Se a letra for minúscula, deve-se somar ambos os dígitos e se os DÍGITOS forem iguais, deve-se desconsiderar a letra e mostrar o produto entre os dois dígitos.
+
+param entrada: sequencia de três algarismos compostos por número, letra e número
+
+type entrada: str
+
+return: inteiro segundo as regras do jogo.
+"""
+
 def jogo_matematico(entrada: str) -> int:
   letra = entrada[1]
 
